@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="primaryColor">#fafafa</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#c7c7c7</color>
+    <color name="secondaryColor">#5e35b1</color>
+    <color name="secondaryLightColor">#9162e4</color>
+    <color name="secondaryDarkColor">#280680</color>
+    <color name="primaryTextColor">#311b92</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <color name="item_color_title">#060606</color>
+    <color name="item_color_time">#bfbfbf</color>
+    <color name="item_color_desc">#ababab</color>
+    <color name="item_color_like">#676767</color>
+    <color name="item_color_shadow">#c9f2f3</color>
+    <color name="item_color_stars">#76b5ff</color>
+    <color name="item_color_watchers">#ffdd00</color>
+    <color name="item_color_forks">#a07aea</color>
+    <color name="item_color_star_text">#a2b4ca</color>
+    <color name="item_color_line">#ecf2f9</color>
+    <color name="bg_ripple">#66aeaeae</color>
+    <color name="transparent">#80FFFFFF</color>
+
+
+
+    <color name="dot_light_screen5">#A1887F</color>
+
+    <array name="dot_active">
+        <item>@color/primaryTextColor</item>
+
+    </array>
+
+    <array name="dot_inactive">
+        <item>@color/primaryDarkColor</item>
+
+    </array>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937001812332",
+    "project_id": "athena-9d932",
+    "storage_bucket": "athena-9d932.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937001812332:android:3946d229a04c88d4b3f349",
+        "android_client_info": {
+          "package_name": "com.firstzoom.athena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937001812332-59m1jkkbuqtgq3tvnkil7kp0bjdb9hk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8VyixwkMeYYrZiVonqxwnN33VjSxeNu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937001812332-59m1jkkbuqtgq3tvnkil7kp0bjdb9hk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

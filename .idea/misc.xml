@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_camera.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_circle.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_del.xml" value="0.114" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_group.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_notify.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_play.xml" value="0.116" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_save.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-anydpi/ic_action_upload.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/drawable-mdpi/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/activity_exo_player.xml" value="0.15989583333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/activity_video_player.xml" value="0.125" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/app_bar_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/content_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/content_video.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_exo_player.xml" value="0.15989583333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_fullscreen.xml" value="0.1265625" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_group.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_image.xml" value="0.15989583333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_saved_items.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_second.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_tab.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/fragment_video.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/group_view.xml" value="0.15989583333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/list_item.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/list_item_group.xml" value="0.22" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/list_shared_item.xml" value="0.22" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/shared_fragment.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/sign_out_fragment.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/upload_fragment.xml" value="0.22" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/video_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/view_empty.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/layout/view_loader.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/menu/activity_main_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/menu/menu_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/menu/popup_camera.xml" value="0.17552083333333332" />
+        <entry key="..\:/niharika/android/Athena/app/src/main/res/xml/file_paths.xml" value="0.12604166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

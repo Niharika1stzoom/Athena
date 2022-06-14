@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ExoPlayerActivity"
+    android:keepScreenOn="true">
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:keep_content_on_player_reset="true"
+        app:show_shuffle_button="true"
+        app:show_buffering="always"
+
+        app:show_subtitle_button="true"/>
+    />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/textContainer"
+        android:layout_marginHorizontal="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/name"
+            android:paddingTop="4dp"
+            android:drawableLeft="@drawable/ic_action_circle"
+            android:drawablePadding="4dp"
+            android:layout_marginLeft="@dimen/margin_xsmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="25"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/item_time"
+
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="By Rahut Mehta"
+            android:textAlignment="textEnd"
+            android:paddingTop="4dp"
+            android:layout_marginRight="@dimen/margin"
+            android:textColor="@color/item_color_stars"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/item_time"
+            app:layout_constraintLeft_toRightOf="@id/name" />
+
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_large"
+            android:paddingHorizontal="@dimen/margin_xsmall"
+            android:textColor="@color/item_color_time"
+            android:textSize="@dimen/font_small"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            tools:text="Sep 6, 2010 at 9.36 PM" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/item_color_desc"
+            android:paddingHorizontal="8dp"
+            android:layout_marginHorizontal="@dimen/margin_large"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginBottom="@dimen/margin_xsmall"
+            android:text="Felicitation ghhj jhujh jhuh jkhujhh jkjjk jkj hujh hj jhj ghjhjhghjgghjg hu"
+            app:layout_constraintTop_toBottomOf="@id/item_time"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/SavedItemsFragment"
+        android:name="com.firstzoom.athena.main.SavedItemsFragment"
+        android:label="@string/first_fragment"
+        tools:layout="@layout/fragment_saved_items">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/UploadFragment"
+        android:name="com.firstzoom.athena.upload.UploadFragment"
+        android:label="@string/upload_fragment_label"
+        tools:layout="@layout/upload_fragment">
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/SharedFragment"
+        android:name="com.firstzoom.athena.SharedItems.SharedFragment"
+        android:label="@string/SharedFragment"
+        tools:layout="@layout/shared_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.firstzoom.athena.login.LoginFragment"
+        android:label="@string/fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/signOutFragment"
+        android:name="com.firstzoom.athena.login.SignOutFragment"
+        android:label="@string/app_name" />
+    <fragment
+        android:id="@+id/tabFragment"
+        android:name="com.firstzoom.athena.SharedItems.TabFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_tab" />
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="com.firstzoom.athena.SharedItems.GroupFragment"
+        android:label="GroupFragment" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.firstzoom.athena.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.firstzoom.athena.view.ImageFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_image" />
+    <fragment
+        android:id="@+id/exoPlayerFragment"
+        android:name="com.firstzoom.athena.view.ExoPlayerFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_exo_player" />
+    <activity
+        android:id="@+id/exoPlayerActivity"
+        android:name="com.firstzoom.athena.view.ExoPlayerActivity"
+        android:label="@string/app_name"
+        tools:layout="@layout/activity_exo_player" />
+</navigation>

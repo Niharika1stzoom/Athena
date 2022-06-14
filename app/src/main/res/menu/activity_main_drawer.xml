@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tabFragment"
+            android:icon="@drawable/ic_action_photos"
+            android:title="@string/menu_shared" />
+
+        <item
+            android:id="@+id/SavedItemsFragment"
+            android:icon="@drawable/ic_action_cam"
+            android:title="@string/menu_save" />
+
+
+        <item
+            android:id="@+id/signOutFragment"
+            android:icon="@drawable/ic_action_signout"
+            android:title="@string/sign_out" />
+
+    </group>
+</menu>
